@@ -19,7 +19,7 @@ class _MyReservationsPageState extends State<MyReservationsPage> {
         title: Text("My Reservations"),
         centerTitle: true,
       ),
-      body: SingleChildScrollView(
+      body: Container(
         child: ListView.builder(
           itemCount: reservations.length,
           itemBuilder: (BuildContext context, int index) {
